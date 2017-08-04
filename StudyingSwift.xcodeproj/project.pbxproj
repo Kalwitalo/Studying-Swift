@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A805F4411F33FF2100DEDEB9 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A805F4401F33FF2100DEDEB9 /* CalculatorBrain.swift */; };
 		DD4DB2FE1F339C76009C490B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4DB2FD1F339C76009C490B /* AppDelegate.swift */; };
 		DD4DB3001F339C76009C490B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4DB2FF1F339C76009C490B /* ViewController.swift */; };
 		DD4DB3031F339C76009C490B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4DB3011F339C76009C490B /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A805F4401F33FF2100DEDEB9 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		DD4DB2FA1F339C76009C490B /* StudyingSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyingSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4DB2FD1F339C76009C490B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD4DB2FF1F339C76009C490B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A805F43F1F33FEAA00DEDEB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD4DB2FD1F339C76009C490B /* AppDelegate.swift */,
+				DD4DB3071F339C76009C490B /* Assets.xcassets */,
+				DD4DB3091F339C76009C490B /* LaunchScreen.storyboard */,
+				DD4DB30C1F339C76009C490B /* Info.plist */,
+				DD4DB3041F339C76009C490B /* StudyingSwift.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		DD4DB2F11F339C76009C490B = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +70,10 @@
 		DD4DB2FC1F339C76009C490B /* StudyingSwift */ = {
 			isa = PBXGroup;
 			children = (
-				DD4DB2FD1F339C76009C490B /* AppDelegate.swift */,
+				A805F43F1F33FEAA00DEDEB9 /* Supporting Files */,
+				A805F4401F33FF2100DEDEB9 /* CalculatorBrain.swift */,
 				DD4DB2FF1F339C76009C490B /* ViewController.swift */,
 				DD4DB3011F339C76009C490B /* Main.storyboard */,
-				DD4DB3071F339C76009C490B /* Assets.xcassets */,
-				DD4DB3091F339C76009C490B /* LaunchScreen.storyboard */,
-				DD4DB30C1F339C76009C490B /* Info.plist */,
-				DD4DB3041F339C76009C490B /* StudyingSwift.xcdatamodeld */,
 			);
 			path = StudyingSwift;
 			sourceTree = "<group>";
@@ -142,6 +153,7 @@
 			files = (
 				DD4DB3061F339C76009C490B /* StudyingSwift.xcdatamodeld in Sources */,
 				DD4DB3001F339C76009C490B /* ViewController.swift in Sources */,
+				A805F4411F33FF2100DEDEB9 /* CalculatorBrain.swift in Sources */,
 				DD4DB2FE1F339C76009C490B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +318,7 @@
 				DD4DB3111F339C76009C490B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
